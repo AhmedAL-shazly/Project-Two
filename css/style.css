@@ -1,0 +1,106 @@
+.navbar {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    background-image: linear-gradient(to left, #00d4ff,#1783df, #00d4ff);
+}
+.navbar button:hover {
+    background-color: #0c85f0;
+}
+.btn-outline-success {
+    border-color: rgba(0, 0, 255, 0.603);
+    color: white;
+}
+nav .img-fulid {
+    height: 60px;
+    border-radius: 50%;
+}
+.navbar {
+    font-family: 'Lobster', cursive;
+}
+nav ul li a {
+    color: white;
+}
+nav ul li a:hover {
+    color: wheat;
+}
+.dropdown-item {
+    color: rgb(245, 193, 96);
+    border-radius: 10px;
+}
+.dropdown-menu {
+    border-radius: 20px;
+}
+nav i {
+    font-size: 50px;
+    color: wheat;
+}
+.carousel-inner img {
+    height: 85vh;
+}
+.carousel-inner h5 {
+    color: wheat;
+    font-weight: bold;
+    font-size: 25px;
+}
+.carousel-inner p {
+    color: #0c85f0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content img {
+    border-radius: 20px;
+    height: 170px;
+    width: 255px;
+}
+.content p {
+    border: 2px solid #00d4ff;
+    font-size: 20px;
+}
+.content p:hover {
+    background-color: aqua;
+    color: white;
+}
+.content .aaa {
+    animation-name: amr;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes amr {
+    100% {
+        transform: scale(1.3 , 1.3);
+    }
+}
+.end {
+    background-image: linear-gradient(to left, #667db6, #0082c8, #0082c8, #667db6);
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+.social i {
+    font-size: 40px;
+    color: wheat;
+    cursor: pointer;
+}
+.social i:hover {
+    color: rgb(64, 179, 224);
+}
+ .hr {
+    width: 80%;
+    border-radius: 50%;
+    border-width: 7px;
+    border-color: wheat;
+    animation-name: ggg;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ggg {
+    100% {
+        border-color: turquoise;
+    }
+}
+.EEE {
+    font-size: 45px;
+    color: wheat;
+    font-family: 'Lobster', cursive;
+}
